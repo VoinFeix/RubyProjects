@@ -8,7 +8,7 @@ def palindromeChecker(text)
     lst.push(text[i])
   end
 
-  rev_lst = lst.reduce([]) { |memo, el| memo.unshift(el) }
+  rev_lst = lst.reverse
   tmp = ""
 
   rev_lst.each do |i|
