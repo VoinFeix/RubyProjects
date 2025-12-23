@@ -11,7 +11,7 @@ def intReverse(num)
   end
 #  print "List: ", lst, "\n"
 
-  lst = lst.reduce([]) { |memo, el| memo.unshift(el) }
+  lst = lst.reverse
 #  print "RevList: ", lst, "\n"
 
   tmp = ''
